@@ -1,0 +1,91 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gas Leakage Detector</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header class="bg-body pt-3 pb-3">
+        <h1 class="text-center heading">Gas Leakage Detector</h1>
+    </header>
+    <div class="container-fluid pt-5">
+        <h2>Telegram Message Setup</h2>
+        <br>
+        <h3>Install Telegram App</h3>
+        <p>
+            <a href="https://telegram.org/dl/android" class="no-dec">Telegram for Android</a>
+            <br>
+            <a href="https://telegram.org/dl/ios" class="no-dec">Telegram for iPhone and iPad</a>
+        </p>
+        <h3>Register Device for Alert</h3>
+        <p>
+            After installing the App (Assuming you have registered Telegram Account) contact
+            <a href="https://">@somenameBot</a>
+            and click start. Now you will receive a welcome message from the Bot. Then, send your Device Serial Number
+            to the Bot. After verifying your device serial number, you will receive a confirmation message from the Bot.
+        </p>
+        <h3 class="text-danger"><b>Important!</b></h3>
+        <p><b>Telegram BOT</b> does not support multiple users (If you try to register again in another device/telegram
+            account your old
+            telegram account will stop receiving Alerts and new account will get Alerts)</p>
+        <br>
+        <h2>Device Setup</h2>
+        <br>
+        <h3>Wifi Setup</h3>
+        <p>
+            After connecting the device to Power, Hotspot will be automatically enabled with SSID <b
+                class="text-success">Gas Leakage
+                Detector</b>
+            <br>
+            <br>
+            <b>Step 1:</b>
+            <li>Connect to the wifi network having SSID <b class="text-success">Gas Leakage
+                    Detector</b> (this wifi network does not have password).</li>
+            <br>
+            <b>Step 2:</b>
+            <li>Open your browser and type <b class="text-success">http://192.168.4.1</b> in the address bar.</li>
+            <br>
+            <b>Step 3:</b>
+            <li>Available Network Names (SSID) will be shown in the webpage. Enter your network name (SSID) and
+                Password, after
+                entering the details click Submit Button.</li>
+            <br>
+            <b>Step 4:</b>
+            <li>Verify whether the Green LED is off (it might take a few seconds), if so then your wifi configuration is
+                correct and the device is
+                successfully connected to the Wifi.</li>
+            <br>
+            <b>Step 5 (<span class="text-danger">Only if Green LED is still ON after step 4</span>):</b>
+            <li>If Green LED is On even after ~30 seconds then it might be due to wrong configuration(SSID or Password).
+                In this case you have to click reset button on the device and hotspot will restart, Now please
+                follow the same
+                procedure (ie; from step 1).
+                <br>
+                Also verify that device is in Wifi Network converage.
+            </li>
+            <br>
+        <h3 class="text-warning"><b>⚠️Warning⚠️</b></h3>
+        <p><b><i>Gas Leakage Detector Only Works if the device is connected to Wifi
+                    <br>
+                    Even Buzzer works only if the device is connected to Wifi (This does not mean that the device needs
+                    an active Internet connection, if wifi is connected and Internet connection is down then the device
+                    buzzer works but you won't receive telegram alerts)
+                </i></b>
+            <br>
+            <i>👉Please keep this device away from smoke and alcohol.👈</i>
+        </p>
+        </p>
+    </div>
+    <footer class="footer bg-secondary p-4 text-center text-white">
+        <b class="font-footer"><a href="/index.htm" class="no-dec text-white">Ntools</a></b>
+        <p>Copyright © 2021 <a href="/index.htm" class="no-dec text-white">Ntools</a> - All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    box-shadow: 0 8px 6px -6px black;
+}
+
+.heading {
+    font-family: cursive;
+    color: orange;
+}
+
+.no-dec {
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+    font-family: Garamond, serif;
+}
+
+h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.font-footer {
+    font-family: cursive;
+    font-size: xx-large ;
+}
